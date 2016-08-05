@@ -27,5 +27,5 @@ $conf['referer_pos'] = 8;
 $conf['size_pos'] = 7;
 // unique cookie position. Needed for tracking user. Set it in your application
 // or with nginx module ngx_http_userid_module.
-$conf['cookie_pos'] = 9;
+$conf['cookie_pos'] = 10;
 
