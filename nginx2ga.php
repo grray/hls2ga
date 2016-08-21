@@ -13,7 +13,7 @@ class Parser {
   private $fp;
 
   public function __construct($filename) {
-    $this->fp = popen("tail -c 0 -f {$filename}", "r");
+    $this->fp = popen("tail -c 0 -F {$filename}", "r");
     if ($this->fp == false) {
       throw new Exception("Cant open file {$filename}: ".error_get_last()['message']);
     }
