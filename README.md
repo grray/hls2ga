@@ -1,4 +1,4 @@
-# nginx2ga
+# hls2ga
 This tool collects HLS viewer stats from Nginx access logs and sends it to Google Analytics.
 ## Usage
 Clone it somewhere
