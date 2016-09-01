@@ -9,4 +9,4 @@ Copy config.sample.php into config.php, adjust settings in config.php (there is 
 ```
 php hls2ga.php /path/to/your/nginx/access.log
 ```
-It process access log in realtime, so it should be running all the time.
+It process access log in realtime, so it should be running all the time. Stats will be reported as event, so watch it in "Realtime - Events" or "Behavior - Events" in Google Analytics.
