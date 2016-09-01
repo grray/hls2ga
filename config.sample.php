@@ -12,8 +12,9 @@ log file. Index starts from zero. Default values are for followin config
                         '"$uid_got"';
     access_log logs/access.log tracking;
 
-Unique cookie is logged at end. Use $uid_got for ngx_http_userid_module or
-$cookie_COOKIE_NAME for your own cookie.
+Unique cookie is logged at end. Use $cookie__ga for google analytics cookie 
+(if it is installed on your site), or $cookie_COOKIENAME if your site set it's 
+own cookie, or $uid_got if you use ngx_http_userid_module.
 */
 // ip position
 $conf['ip_pos'] = 0;
