@@ -5,7 +5,7 @@ Clone it somewhere
 ```
 git clone https://github.com/grray/hls2ga.git
 ```
-Copy config.sample.php into config.php, adjust settings in config.php (there is comments here). Run it like this
+Copy config.sample.php into config.php, adjust settings in config.php (there is comments there). Run it like this
 ```
 php hls2ga.php /path/to/your/nginx/access.log
 ```
