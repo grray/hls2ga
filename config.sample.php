@@ -4,7 +4,8 @@ $conf['tracking_id'] = "UA-XXXX-X";
 $conf['event_category'] = "video";
 /*
 Next *_pos config parameters specify where certain item is located in nginx
-log file. Index starts from zero. Default values are for followin config
+log file. Index starts from zero. [$time_local] counts as two values.
+Default values are for followin config
 
     log_format tracking '$remote_addr - $remote_user [$time_local] '
                         '"$request" $status $body_bytes_sent '
